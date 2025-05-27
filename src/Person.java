@@ -48,7 +48,7 @@ public class Person {
 
     public static void main(String[] args){
         Person myNewPersonObject = new Person(9843, "Ulia", "Mendez", 19);
-        myNewPersonObject.setPersonAge(14);
+        myNewPersonObject.setPersonAge(16);
         System.out.println(myNewPersonObject.getPersonAge());
     }
 
