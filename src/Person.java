@@ -1,3 +1,6 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+
 public class Person {
 
     private int personID;
@@ -52,5 +55,11 @@ public class Person {
         System.out.println(myNewPersonObject.getPersonAge());
     }
 
+    @Override
+    public String toString() {
+        return firstName + " " + surName + " is " + personAge + ".";
+    }
+
 
 }
+
